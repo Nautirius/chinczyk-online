@@ -1,0 +1,18 @@
+@import url("./utils.css");
+@import url("./pawnClasses.css");
+
+body{
+    margin:0;
+    color:black;
+    font-family: monospace;
+    font-weight: bolder;
+    /* background:#212020; */
+}
+#die {
+    background-size: cover !important;
+    height:80px;
+    width:80px;
+}
+h1 {
+    font-size:50px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobby</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="module" defer src="lobby.js"></script>
+</head>
+
+<body>
+    <div id="ct">
+        <h1>lobby</h1>
+        <ul id="player-list"></ul>
+        <label class="switch">
+            <input type="checkbox" name="status" id="status-input">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <style>
+        #ct {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #player-list li {
+            list-style-type: none;
+            float: left;
+            padding: 10px;
+        }
+    </style>
+</body>
+
+</html>

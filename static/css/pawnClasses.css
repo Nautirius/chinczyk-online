@@ -1,0 +1,110 @@
+.pawn{
+    box-sizing: border-box;
+    position:absolute;
+    border: 10px solid black;
+    border-radius:90px;
+    width:60px;
+    height:60px;
+    padding: 10px;
+}
+.hint{
+    box-sizing: border-box;
+    position:absolute;
+    border: 5px solid black;
+    border-radius:90px;
+    width:60px;
+    height:60px;
+    padding: 10px;
+    background: rgba(100,100,100,1);
+    /* background: violet; */
+    /* animation: hintAnim 1s 1s 0 infinite linear forwards; */
+    animation-name: hintAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes hintAnim {
+    0% { background: rgba(100,100,100,1);}
+    50% { background: rgba(100,100,100,.7);}
+    100%{ background: rgba(100,100,100,1);}
+}
+.r{
+    background:red;
+    /* background: url("1.png"); */
+    background-size: cover;
+}
+.rb01 {
+    top: 640px;
+    left: 1190px;
+}
+.rb02 {
+    top: 640px;
+    left: 1250px;
+}
+.rb03 {
+    top: 700px;
+    left: 1190px;
+}
+.rb04 {
+    top: 700px;
+    left: 1250px;
+}
+.b{
+    background:blue;
+    /* background: url("blue.jpg");
+    background-size: cover;
+    border: 10px solid blue; */
+}
+.bb01 {
+    top: 640px;
+    left: 650px;
+}
+.bb02 {
+    top: 640px;
+    left: 710px;
+}
+.bb03 {
+    top: 700px;
+    left: 650px;
+}
+.bb04 {
+    top: 700px;
+    left: 710px;
+}
+.y{
+    background:yellow;
+}
+.yb01 {
+    top: 100px;
+    left: 650px;
+}
+.yb02 {
+    top: 100px;
+    left: 710px;
+}
+.yb03 {
+    top: 160px;
+    left: 650px;
+}
+.yb04 {
+    top: 160px;
+    left: 710px;
+}
+.g{
+    background:green;
+}
+.gb01 {
+    top: 100px;
+    left: 1190px;
+}
+.gb02 {
+    top: 100px;
+    left: 1250px;
+}
+.gb03 {
+    top: 160px;
+    left: 1190px;
+}
+.gb04 {
+    top: 160px;
+    left: 1250px;
+}

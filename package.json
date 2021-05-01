@@ -1,0 +1,19 @@
+{
+  "name": "chinczyk-online",
+  "version": "1.0.0",
+  "description": "Projekt na aplikacje klienckie",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "nedb": "^1.8.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marcin Knapczyk 3Ib1",
+  "license": "ISC"
+}
