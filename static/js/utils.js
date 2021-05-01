@@ -5,7 +5,7 @@ class chinol {
 
     static fetches = {
         postStatusChange(status) {
-            let result = fetch('http://localhost:3000/changeStatus', {
+            let result = fetch('https://chinczyk-mk3ib1.glitch.me/changeStatus', {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',
@@ -19,7 +19,7 @@ class chinol {
             // .then(data => chinol.generators.generateLobbyView(data));
         },
         getGameData() {
-            let gameData = fetch('http://localhost:3000/data', {
+            let gameData = fetch('https://chinczyk-mk3ib1.glitch.me/data', {
                 method: "GET",
             })
                 .then(res => res.json())
@@ -28,7 +28,7 @@ class chinol {
             return gameData;
         },
         rollDie() {
-            let score = fetch('http://localhost:3000/rollDie', {
+            let score = fetch('https://chinczyk-mk3ib1.glitch.me/rollDie', {
                 method: "GET",
             })
                 .then(response => response.json())
@@ -38,7 +38,7 @@ class chinol {
         },
         sendChoice(pawnPos, choice) {
             console.log(choice);
-            let result = fetch('http://localhost:3000/movePawn', {
+            let result = fetch('https://chinczyk-mk3ib1.glitch.me/movePawn', {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',
